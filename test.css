@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    justify-content: center;
+     
+}
+
+.navbar {
+    margin-right: 15px;
+}
+
+.block3 {
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-width: 2px;
+
+}
+
+.logo {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.logo-img {
+    grid-column: 5;
+    grid-row: 1;
+
+}
+
+.logo-text {
+    grid-column: 6/12;
+    grid-row: 1;
+    font-family: Trattatello, fantasy;
+}
+
+h5 {
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-fluid {
+   
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+
+
+.card {
+    display: inline-grid;
+    font-family: 'Times New Roman', Times, serif;
+    width: 650px;
+    height: 480px;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    
+    
+}
+
+.bunner {
+    display: inline-grid;  
+    height: 350px;
+    vertical-align: top;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.bunner-text {
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+
+}
+.news-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+   
+    
+}
+
+.news a {
+    margin: 5px;
+    color: green;
+    
+}
+
+#footer a {
+    color: green;
+    margin: 0 auto;
+    
+
+}
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+
+
+.fixed-top {
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: grey;
+    width: 150px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal_div {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: rgb(241, 241, 241);
+    position: fixed; 
+    top: 45%;
+    left: 50%; 
+    margin-top: -200px;
+    margin-left: -200px; 
+    display: none; 
+    opacity: 0; 
+    z-index: 5; 
+    padding: 20px 10px;
+ }
+ 
+ .modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+ }
+
+ #overlay {
+    z-index:3; 
+    position:fixed; 
+    background-color:#000; 
+    opacity:0.8; 
+    -moz-opacity:0.8; 
+    filter:alpha(opacity=80);
+    width:100%;
+    height:100%; 
+    top:0; 
+    left:0;
+    cursor:pointer;
+    display:none; 
+ }
+
+ .btn a {
+     color: white;
+ }
+
+ .backet-text {
+     text-align: center;
+ }
+
+ .backet-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+ 
